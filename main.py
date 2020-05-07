@@ -30,6 +30,7 @@ if __name__ == "__main__":
 
                 # draw rectangle with confidence level > 0.5
                 if conf > 0.5:
+                    # do your magic here
                     cv2.rectangle(frame, (x1,y1), (x2,y2), (255,255,255), 2)
             # display frame
             cv2.imshow("Face Detection", frame)
